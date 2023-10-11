@@ -1,0 +1,38 @@
+.footerWrapper {
+  margin-top: auto;
+}
+
+.top {
+  text-transform: uppercase;
+  padding: 1rem;
+  background: #dc3b06;
+  border: none;
+  color: white;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.footer {
+  padding: 1rem 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 1rem;
+  filter: brightness(0);
+}
+
+.iconsDark{
+  filter: brightness(0) invert(1);
+}
+
+.utrLogo{
+  max-width: 30%;
+}
+
+.icon {
+  max-width: 2rem;
+  height: auto;
+}
